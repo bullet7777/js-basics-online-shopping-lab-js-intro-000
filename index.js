@@ -40,11 +40,15 @@ for(let i=0;i<cart.length;i++){
 return totalNumber
 }
 function removeFromCart(nameOfItemRemoved){
-
+var cartLength=cart.length
 for (let i = 0; i < cart.length; i++){
   if(cart[i].itemName===nameOfItemRemoved){
     cart.splice(i,1)
 }
+
+  }
+  if(cartLength===cart.length){
+    return "That item is not in your cart."
   }
 return cart
 }
