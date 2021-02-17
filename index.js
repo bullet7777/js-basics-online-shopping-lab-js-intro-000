@@ -53,7 +53,9 @@ for (let i = 0; i < cart.length; i++){
 return cart
 }
 function placeOrder(creditCardNumber){
-
+if(creditCardNumber===''){
+  return 'Sorry, we don\'t have a credit card on file for you.'
+}
 }
 
 function setCart(c) {
