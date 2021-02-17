@@ -55,7 +55,7 @@ return cart
 function placeOrder(creditCardNumber){
 alert('Sorry, we don\'t have a credit card on file for you.')
 }
-}
+
 
 function setCart(c) {
   cart = c;
