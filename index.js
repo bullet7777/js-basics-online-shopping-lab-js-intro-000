@@ -52,7 +52,7 @@ for (let i = 0; i < cart.length; i++){
   }
 return cart
 }
-function placeOrder(){
+function placeOrder(creditCardNumber){
 
 }
 
